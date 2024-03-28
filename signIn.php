@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html>
 
+<div class="topnav">
+  <a href="home.php">HOME</a>
+  <a href="createPost.html">CREATE POST</a>
+  <a href="signIn.html">SIGNIN</a>
+  <a href="login.html">LOGIN</a>
+</div>
+
 <?php
 
 $firstname;
