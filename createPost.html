@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Post Page</title>
+<script type="text/javascript" src="scripts/validate.js"></script>
+<script>
+  window.onload() = function checkLogin(e) {
+    if ($_SESSION['username'] === null){
+      alert("Login to create a post");
+      window.location.href = 'login.html';
+    }
+  }
+</script>
+</head>
+
+<body>
+
+<form method="post" action="createpost.php" id="mainForm" >
+  Post Title:<br>
+  <input type="text" name="title" id="title" class="required">
+  <br>
+  Post Content<br>
+  <input type="text" name="content" id="content" class="required">
+  <br>
+  <br><br>
+  <input type="submit" value="Post Content">
+</form>
+</body>

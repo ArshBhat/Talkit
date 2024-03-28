@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SignIn Page</title>
+
+<script type="text/javascript" src="scripts/validate.js"></script>
+
+<!-- Password checking script here!! -->
+<script>
+  function checkPasswordMatch(e) {
+    var password = document.getElementById("password");
+    var passwordCheck = document.getElementById("password-check");
+    
+    if(!(password.value == passwordCheck.value)){
+      e.preventDefault();
+      alert("Passwords do not match");
+      makeRed(password);
+      makeRed(passwordCheck);
+      return false;      
+    }
+    // if passwords match
+    return true;
+  }
+</script>
+
+</head>
+
+<body>
+
+<form method="post" action="signIn.php" id="mainForm" >
+  First Name:<br>
+  <input type="text" name="firstname" id="firstname" class="required">
+  <br>
+  Last Name:<br>
+  <input type="text" name="lastname" id="lastname" class="required">
+  <br>
+  Username:<br>
+  <input type="text" name="username" id="username" class="required">
+  <br>
+  email:<br>
+  <input type="text" name="email" id="email" class="required">
+  <br>
+  Password:<br>
+  <input type="password" name="password" id="password" class="required">
+  <br>
+  Re-enter Password:<br>
+  <input type="password" name="password-check" id="password-check" class="required">
+  <br><br>
+  <input type="submit" value="Create New User">
+</form>
+<p>Already have an account?<a href="login.html">Login</a></p>
+</body>
