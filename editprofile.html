@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SignIn Page</title>
+  <title>Edit Profile Page</title>
   <link rel="stylesheet" href="styling.css">
 
 <script type="text/javascript" src="scripts/validate.js"></script>
@@ -30,29 +30,26 @@
 
 <body>
 
-<form method="post" action="signIn.php" id="mainForm" enctype="multipart/form-data" >
-  First Name:<br>
+<form method="post" action="processeditprofile.php" id="mainForm" enctype="multipart/form-data" >
+  New First Name:<br>
   <input type="text" name="firstname" id="firstname" class="required">
   <br>
-  Last Name:<br>
+  New Last Name:<br>
   <input type="text" name="lastname" id="lastname" class="required">
   <br>
-  Username:<br>
-  <input type="text" name="username" id="username" class="required">
-  <br>
-  email:<br>
+  New email:<br>
   <input type="text" name="email" id="email" class="required">
   <br>
-  Password:<br>
+  New Password:<br>
   <input type="password" name="password" id="password" class="required">
   <br>
-  Re-enter Password:<br>
+  Re-enter New Password:<br>
   <input type="password" name="password-check" id="password-check" class="required">
   <br>
-  Select image to upload:<br>
+  Select New image to upload:<br>
   <input type="file" name="userImage" id="userImage">
   <br><br>
-  <input type="submit" value="Create New User">
+  <input type="submit" value="Edit Profile">
 </form>
 <p>Already have an account?<a href="login.html">Login</a></p>
 </body>

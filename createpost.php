@@ -1,5 +1,12 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
 
 <div class="topnav">
   <a href="home.php">HOME</a>
@@ -15,9 +22,9 @@ $username;
 $password;
 
 $host = "localhost";
-$database = "db_40202400";
-$user = "40202400";
-$password = "40202400";
+$database = "lab9";
+$user = "root";
+$password = "";
 
 $connection = mysqli_connect($host, $user, $password, $database);
 
@@ -59,4 +66,5 @@ else
     
 }
 ?>
+</body>
 </html>

@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Create Post Page</title>
+  <link rel="stylesheet" href="styling.css">
 <script type="text/javascript" src="scripts/validate.js"></script>
 <script>
   window.onload() = function checkLogin(e) {
@@ -17,12 +20,13 @@
 
 <form method="post" action="createpost.php" id="mainForm" >
   Post Title:<br>
-  <input type="text" name="title" id="title" class="required">
+  <input type="text" name="title" id="title" required>
   <br>
   Post Content<br>
-  <input type="text" name="content" id="content" class="required">
+  <textarea name="content" id="content" cols="30" rows="10" required></textarea>
   <br>
   <br><br>
   <input type="submit" value="Post Content">
 </form>
 </body>
+</html>

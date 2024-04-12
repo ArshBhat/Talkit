@@ -1,0 +1,66 @@
+* {
+    font-family: "Times New Roman", serif;
+    
+  }
+
+body {
+    background-color: #7aa6fd;
+    font-family: serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #5465a0;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+    justify-content: space-between;
+}
+
+
+form input{
+    border-radius: 0.25rem;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+}
+
+main {
+    padding: 2rem;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.post {
+    background-color: rgb(3, 152, 152);
+    text-align: left;
+    width: 75%;
+    height: 15%;
+}
+
+.post h2 {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+}
+
+h3 {
+    color: #FFFFFF;
+}
+
+.img {
+    max-width: 100%;
+}
+
+

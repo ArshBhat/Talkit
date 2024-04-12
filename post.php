@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html>
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viewpost</title>
+    <link rel="stylesheet" href="styling.css">
+</head>
+<body>
 <?php
 session_start();
 
 $postid;
 
 $host = "localhost";
-$database = "db_40202400";
-$user = "40202400";
-$password = "40202400";
+$database = "lab9";
+$user = "root";
+$password = "";
 
 $connection = mysqli_connect($host, $user, $password, $database);
 
@@ -70,4 +76,6 @@ else
     
 }
 ?>
+   
+</body>
 </html>
