@@ -21,9 +21,9 @@ $uploadOk;
 $userID; 
 
 $host = "localhost";
-$database = "lab9";
-$user = "root";
-$password = "";
+$database = "db_40202400";
+$user = "40202400";
+$password = "40202400";
 
 $connection = mysqli_connect($host, $user, $password, $database);
 
