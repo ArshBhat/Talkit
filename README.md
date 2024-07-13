@@ -1,4 +1,16 @@
-User Guide
+# Talkit | MySQL, PHP, HTML5/CSS, Javascript, AJAX, XAMPP, jQuery 
+## Jan 2024 – April 2024
+- Developed a user-centric discussion forum application, enabling users to connect with online communities based on
+their interests, fostering engagement and interaction.
+- Implemented backend services using XAMPP, Apache, PHP, and MySQL, providing robust hosting, control flow,
+and data storage capabilities, ensuring persistent data availability on the webpage.
+- Enhanced user experience by utilizing AJAX for asynchronous operations and error troubleshooting, resulting in a
+smoother and more responsive application.
+- Strengthened the user interface with JavaScript and jQuery for frontend development and client-side validation,
+ensuring a secure and intuitive user experience. Admin functions included the ability to view and edit all
+users/posts, providing comprehensive control and management of the platform.
+
+# User Guide
 Hi new user,
 I welcome you to your discussion forum. Here’s a user guide for you to use the website:
 1)	When you arrive at the home page, it will ask you to log in to your account or sign up. You can see many posts made by users. You can also click and the website will take you to a dedicated page for each post. The page will have the post along with comments.
